@@ -1,2 +1,6 @@
 <!--pages/about/about.wxml-->
 <text>pages/about/about.wxml</text>
+
+<button class="button" bindtap="about">关于</button>
+<button class="button" bindtap="how_to_use">使用说明</button>
+<button class="button" bindtap="question">问题反馈</button>
