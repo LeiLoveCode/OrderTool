@@ -1,0 +1,32 @@
+<!--pages/yuyue/yuyue.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section section_gap">
+        <view class="section__title">日期</view>
+        <radio-group class="radio" name="day_group">
+          <label><radio value="friday"/>周五</label>
+          <label><radio value="saturday"/>周六</label>
+          <label><radio value="sunday"/>周日</label>
+        </radio-group>
+    </view>
+    <view class="section section_gap">
+        <view class="section__title">时间</view>
+        <radio-group  class="radio" name="time_group">
+          <label><radio value="14to16"/>14:00~16:00</label>
+          <label><radio value="16to18"/>16:00~18:00</label>
+          <label><radio value="18to20"/>18:00~20:00</label>
+          <label><radio value="1940to2140"/>19:40~21:40</label>
+        </radio-group>
+    </view>
+    <view class="section section_gap">
+         <view class="section__title">项目</view>
+         <radio-group  class="radio" name="thing_group">
+              <label><radio value="guitar"/>吉他</label>
+              <label><radio value="ukulele"/>尤克里里</label>
+              <label><radio value="drum"/>非洲鼓</label>
+            </radio-group>
+    </view>
+    <view class="btn-area">
+        <button formType="submit">确定</button>
+        <button formType="reset">取消</button>
+    </view>
+</form>

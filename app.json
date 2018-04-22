@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/order/order",
+    "pages/about/about",
+    "pages/yuyue/yuyue",
+    "pages/myorder/myorder"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "喵叔叔预约工具",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/order/order",
+        "text": "首页",
+        "iconPath": "pages/assets/main.png",
+        "selectedIconPath": "pages/assets/main.png",
+        "selectedColor": "#09BB07"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我",
+        "iconPath": "pages/assets/my.png",
+        "selectedIconPath": "pages/assets/my.png",
+        "selectedColor": "#09BB07"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

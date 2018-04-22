@@ -1,0 +1,12 @@
+<!--pages/myorder/myorder.wxml-->
+<text>pages/myorder/myorder.wxml</text>
+<view class="myorder_view">
+    <view class="view_detail">你已预约的课程如下所示</view>
+    <text class="text_datail">日 期:{{day}}</text>
+    <text class="text_datail">时 间:{{time}}</text>
+    <text class="text_datail">项 目:{{thing}}</text>
+
+    <button  type="primary" class="button" bindtap="okbutton">确定</button>
+    <button  class="button" bindtap="cancelbutton">取消预约</button>
+
+</view>

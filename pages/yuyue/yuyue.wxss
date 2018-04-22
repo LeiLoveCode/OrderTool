@@ -1,0 +1,20 @@
+/* pages/yuyue.wxss */
+.section section_gap{
+    display: flex;
+    flex-direction: column;
+
+}
+.section__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 10px;
+}

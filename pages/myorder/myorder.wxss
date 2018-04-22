@@ -1,0 +1,17 @@
+/* pages/myorder/myorder.wxss */
+
+.myorder_view{
+    display: flex;
+    flex-direction: column;
+}
+.text_datail{
+    margin: 10px;
+}
+
+.button{
+    margin-left: 30px;
+    margin-right: 30px;
+margin-bottom: 5px;
+margin-top: 5px;
+    border-radius: 10px;
+}
