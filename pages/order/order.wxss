@@ -9,30 +9,31 @@
 
 }
 .order_picture{
-    margin-left: 40px;
-    margin-top: 30px;
+    width: 600rpx;
+    margin-left: 100rpx;
+    margin-top: 80rpx;
     opacity: 0.4;
 }
 /*标题*/
 .order_title{
     text-align: center;
-    margin-top: 2px;
-    font-size: 20px;
+    margin-top: 2rpx;
+    font-size: 40rpx;
     font-weight: bold;
     opacity: 0.8;
 }
 
 /*内容*/
 .order_contents{
-    margin-top:10px;
-    font-size: 15px;
+    margin-top:20rpx;
+    font-size: 30rpx;
     text-align: center;
     opacity: 0.4;
 }
 
 .button{
-    margin-left: 30px;
-    margin-right: 30px;
-    border: 10px solid #fff;
-    border-radius: 20px;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    border: 10rpx solid #fff;
+    border-radius: 20rpx;
 }

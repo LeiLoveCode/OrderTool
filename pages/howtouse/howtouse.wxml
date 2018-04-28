@@ -1,0 +1,8 @@
+<!--pages/howtouse/howtouse.wxml-->
+<view class='howtouse'>
+    <view class='title1'>使用说明</view>
+    <view class='content'>2018-04-28 21:58:42</view>
+    <view class='title'>---2018年4月28日更新---</view>
+    <view class='content'>初步完成选课的基本功能</view>
+
+</view>

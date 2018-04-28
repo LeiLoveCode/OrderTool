@@ -1,6 +1,13 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<view class="infoview">
+    <open-data class="userinfo-avatar" type="userAvatarUrl" >
+    </open-data>
+    <open-data class="userinfo-nickname" type="userNickName">
+    </open-data>
+</view>
 
+
+<button class="button" bindtap="count">预约统计</button>
 <button class="button" bindtap="about">关于</button>
 <button class="button" bindtap="how_to_use">使用说明</button>
-<button class="button" bindtap="question">问题反馈</button>
+

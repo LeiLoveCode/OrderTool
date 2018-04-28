@@ -1,0 +1,21 @@
+<!--pages/count/count.wxml-->
+<view class='howtouse'>
+    <view class='title'>预约统计</view>
+    <view class='title1'>周五</view>
+        <view class='content'>18：00到20:00—— {{friday1}}人</view>
+        <view class='content'>19：40到21:40 ——  {{friday2}}人</view>
+
+    <view class='title1'>周六</view>
+        <view class='content'>14：00到16:00  —— {{saturday1}}人</view>
+        <view class='content'>16：00到18:00  —— {{saturday2}}人</view>
+        <view class='content'>18：00到20:00  —— {{saturday3}}人</view>
+        <view class='content'>19：40到21:40  —— {{saturday4}}人</view>
+
+    <view class='title1'>周日</view>
+        <view class='content'>14：00到16:00   ——{{sunday1}}人</view>
+        <view class='content'>16：00到18:00  —— {{sunday2}}人</view>
+        <view class='content'>18：00到20:00  —— {{sunday3}}人</view>
+        <view class='content'>19：40到21:40  —— {{sunday4}}人</view>
+
+
+</view>

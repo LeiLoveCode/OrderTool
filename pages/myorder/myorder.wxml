@@ -1,5 +1,4 @@
 <!--pages/myorder/myorder.wxml-->
-<text>pages/myorder/myorder.wxml</text>
 <view class="myorder_view">
     <view class="view_detail">你已预约的课程如下所示</view>
     <text class="text_datail">日 期:{{day}}</text>
@@ -8,5 +7,25 @@
 
     <button  type="primary" class="button" bindtap="okbutton">确定</button>
     <button  class="button" bindtap="cancelbutton">取消预约</button>
+
+    <modal 
+    title="提示"
+     hidden="{{hiddenModal}}"
+     confirm-text="确定"
+     cancel-text="取消"
+     bindconfirm="listenerConfirm"
+     bindcancel="listenerCancel" >
+     您是否真的要取消预约，点击确定取消选课
+    </modal>
+
+    <modal 
+    title="提示"
+     hidden="{{orderhiddenModal}}"
+     confirm-text="确定"
+     cancel-text="取消"
+     bindconfirm="orderlistenerConfirm"
+     bindcancel="orderlistenerCancel" >
+     您还没有预约课程，请返回后重试
+    </modal>
 
 </view>

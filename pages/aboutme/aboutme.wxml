@@ -1,0 +1,12 @@
+<!--pages/aboutme/aboutme.wxml-->
+<view class='aboutme'>
+    <view class='title1'>关于</view>
+    <view class='content'>2018-04-28 21:41:38</view>
+    <view class='title'>关于软件</view>
+    <view class='content'>为了方便喵叔的预约选课，特呕心沥血写了这个小程序</view>
+    <view class='title'>关于数据</view>
+    <view class='content'>服务端数据采用了hotapp的云后台</view>
+    <view class='title'>其他</view>
+    <view class='content'>由于作者能力有限，小程序仍有很多地方需要完善，有待后续的改进，也可能就没了，主要得看心情</view>
+
+</view>

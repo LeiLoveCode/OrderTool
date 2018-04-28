@@ -1,23 +1,18 @@
-
-
+// pages/howtouse/howtouse.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
-
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-
-console.log("用户信息");
-
+  
   },
 
   /**
@@ -67,24 +62,5 @@ console.log("用户信息");
    */
   onShareAppMessage: function () {
   
-  },
-
-  about:function()
-  {
-    wx.navigateTo({
-      url: '../aboutme/aboutme'
-    })
-  },
-  how_to_use:function(){
-    wx.navigateTo({
-      url: '../howtouse/howtouse'
-    })
-  },
-  count:function()
-  {
-    wx.navigateTo({
-      url: '../count/count'
-    })
   }
- 
 })

@@ -66,9 +66,49 @@ Page({
 
   to_order:function()
   {
-    wx.navigateTo({
-      url: '../yuyue/yuyue'
-    })
+
+
+       //如果内存中已有存储值，则不能继续选课，弹窗提示
+       var day=wx.getStorageSync('day');
+       var time=wx.getStorageSync('time');
+       var thing=wx.getStorageSync('thing');
+
+       console.log(day,time,thing);
+
+      if(day!="0" &&time !="0" && thing !="0")
+       {
+         wx.showModal(
+           {
+             title:"提示",
+             content:"您已经预约了课程，如果需要重新预约，请先到【我的预约】中取消已经预约的课程",
+             confirmText:'确定',
+             cancelText:'我的预约',
+
+             success:function(res)
+             {
+               if(res.confirm)
+               {
+                console.log('用户点击确定')
+               }
+               if(res.cancel)
+               {
+                wx.navigateTo({
+                  url: '../myorder/myorder'
+                })
+               }
+             }
+
+           }
+         )
+       }
+       else
+      {
+               wx.navigateTo({
+           url: '../yuyue/yuyue'
+          })
+       }
+
+  
   },
   my_order:function()
   {

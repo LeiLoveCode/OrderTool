@@ -3,7 +3,11 @@
     "pages/order/order",
     "pages/about/about",
     "pages/yuyue/yuyue",
-    "pages/myorder/myorder"
+    "pages/myorder/myorder",
+    "pages/aboutme/aboutme",
+    "pages/count/count",
+    "pages/howtouse/howtouse"
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -17,15 +21,15 @@
       {
         "pagePath": "pages/order/order",
         "text": "首页",
-        "iconPath": "pages/assets/main.png",
-        "selectedIconPath": "pages/assets/main.png",
+        "iconPath": "pages/assets/miao2.png",
+        "selectedIconPath": "pages/assets/miao2.png",
         "selectedColor": "#09BB07"
       },
       {
         "pagePath": "pages/about/about",
         "text": "我",
-        "iconPath": "pages/assets/my.png",
-        "selectedIconPath": "pages/assets/my.png",
+        "iconPath": "pages/assets/miao3.png",
+        "selectedIconPath": "pages/assets/miao3.png",
         "selectedColor": "#09BB07"
       }
     ]

@@ -1,6 +1,6 @@
 <!--order.wxml-->
 <view class="orderView">
-    <image class="order_picture" mode="aspectFit" src="/pages/assets/new.png"></image>
+    <image class="order_picture" mode="aspectFit" src="/pages/assets/miao1.png"></image>
     <view class="order_title">点击预约按钮预约选课</view>
     <view class="order_contents">你可以点击我的预约查看已经预约的课程</view>
     <button class="button" type="primary" bindtap="to_order">预约</button>

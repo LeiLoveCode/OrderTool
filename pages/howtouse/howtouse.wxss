@@ -1,0 +1,19 @@
+/* pages/howtouse/howtouse.wxss */
+.howtouse{
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    font-size:45rpx;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
+
+}
+.content{
+    font-size:40rpx;
+    margin-top: 40rpx;
+    margin-bottom: 30rpx;
+}

@@ -1,0 +1,23 @@
+/* pages/count/count.wxss */
+.title{
+    font-size:45rpx;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
+
+}
+.title1{
+    font-size:40rpx;
+    font-weight: bold;
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
+
+}
+.content{
+    font-size:40rpx;
+    margin-top: 40rpx;
+    margin-bottom: 30rpx;
+    color: darkgray;
+
+}
