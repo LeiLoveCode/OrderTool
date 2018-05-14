@@ -5,6 +5,8 @@
 
 2.使用hotapp云后台作为数据储存（500次上限已满）
 
+3.主要有hotapp的次数满了，程序失效了(；´д｀)ゞ
+
 ![image](https://github.com/LeiLoveCode/OrderTool/blob/master/picture/mian.PNG)
 
 ![image](https://github.com/LeiLoveCode/OrderTool/blob/master/picture/my.PNG)
